@@ -59,20 +59,20 @@ public class Email {
                     specialC = true;
                 }
                 if(upperC && lowerC && numericC && specialC){
-                    System.out.println("Password changed successfully");
+//                    System.out.println("Password changed successfully");
                 }
                 else {
-                    System.out.println("Try new Password");
+//                    System.out.println("Try new Password");
                 }
 
             }
             else{
-                System.out.println("Try using new  password");
+//                System.out.println("Try using new  password");
             }
 
         }
         else{
-            System.out.println("Password Incorrect");
+//            System.out.println("Password Incorrect");
         }
 
     }
